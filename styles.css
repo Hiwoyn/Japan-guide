@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Montserrat:wght@100;300;500&display=swap');
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 720px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto ;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url("./imagesOwn/Hero.png");
+    height: 343px;
+    color: aliceblue;
+    text-shadow: 0 0 20px #243043;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px 0px #2b2f3590;
+}
+
+.hero h1{
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    background: #2EB2DC70;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px 0px #2b2f3590;
+}
+
+.hero h2{
+    background: #6CBEE180;
+    border-radius: 10px;
+    font-weight: 300;
+    width: 500px;
+    padding: 10px 15px;
+    margin: 0;
+    
+}
+
+.activities {
+    padding:50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    background: #CFF3FE;
+    
+}
+
+.activities>div {
+    width: 200px;
+}
+
+.guide {
+    margin: 50px auto;
+    padding: 30px 10px;
+    width: 500px;
+    background: #B4CCFC;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid #2d2c49;
+}
+
+.guide img{
+    width: 200px;
+}
+
+.prt {
+    width: 200px;
+    margin-left: 30px;
+    
+}
+
